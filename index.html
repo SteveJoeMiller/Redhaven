@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <title>Yields to Farm</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="row">
+        <ul class="main-nav">
+          <li>Home</li>
+          <li>To Do List</li>
+        </ul>
+      </div>
+    </nav>
+    
+  </header>
+
+  <div class="input-container">
+    <input type="text" id="text-input" class="text-input" placeholder="   Task" required>
+    <input type="date" id="date-input" class="date-input" max="2100-12-31" placeholder= required>
+    <input type="submit" class="btn-add-item icon" id='input-btn' value='Add Item'></input>
+  </div>
+  <div class="list-container">
+      <ul id='to-do-list'>
+       
+      </ul>
+  </div>
+</body>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jQuery.js"></script>
+</html>
